@@ -99,6 +99,54 @@ main{
 #mbt{
     margin-bottom: 24px;
 }
+/*feature section*/
+.feature-container{
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+}
+#feat{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.feature-card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 35px 42px 10px 42px;
+    margin-bottom: 40px;
+}
+.feature-card-title{
+    margin-bottom: 20px;
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.ten-year-badge-pic img{
+    margin-left: 80px;
+}
+.ten-year-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 250px; 
+    padding: 40px 30px;
+    position: relative;
+    bottom: 100px;
+}
+.ten-year-badge-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+}
+.ten-year-badge-description{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
 
 /*responsive styles*/
 @media screen and (max-width:576px) {
