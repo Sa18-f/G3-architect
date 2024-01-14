@@ -47,7 +47,7 @@ nav ul li a{
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .btn-primary{
     color: #FFF;
@@ -57,19 +57,61 @@ nav ul li a{
     background: #FF900E;
     padding: 20px 25px;
     border: none;
-    margin-bottom: 40px;
     cursor: pointer;
 }
 .banner-container img{
     width: 100%;
+    margin-top: 40px;
 }
+/*four image*/
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+.four-image-container{
+    display: flex;
+    align-items: center;
+}
+.four-image-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.four-image-written{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.quick{
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.primary-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.komola{
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+#mbt{
+    margin-bottom: 24px;
+}
+
 /*responsive styles*/
 @media screen and (max-width:576px) {
-    header{
+    header,
+    .four-image-written{
         padding: 20px;
     }
+    .four-image-container,
     nav{
         flex-direction: column;
+    }
+    .four-image-content{
+        grid-template-columns: 1fr;
     }
 }
 
